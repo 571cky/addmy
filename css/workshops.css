@@ -1,0 +1,209 @@
+.workshop {
+	width: 100%;
+	min-height: 565px;
+	padding: 50px 0;
+	
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	font-weight: 300;	
+}
+
+.workshop p {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+.workshop a, 
+.workshop a:hover {
+	color: #fff;
+	font-weight: 400;
+}
+
+.main-info {
+	
+}
+
+.main-info h2 {
+	margin: 60px auto 0 auto;
+	font-size: 36px;
+	font-size: 3.6rem;
+	line-height: 36px;
+	line-height: 3.6rem;
+	color: #fff;
+	font-weight: 200;
+	text-align: center;
+}
+
+.main-info p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 18;
+	line-height: 1.8rem;
+	font-weight: 400;
+}
+
+.date-info {
+	margin-top: 20px;
+}
+
+.date-info h3 {
+	display: inline-block;
+	padding: 3px 10px;
+	margin: 0 0 4px 0;
+	
+	color: #fff;
+	font-weight: 200;
+	text-transform: uppercase;
+
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#aa000000, endColorstr=#aa000000)";
+}
+
+.date-info h3 > strong {
+	margin-right: 10px;
+}
+
+.workshop .subscribe-form .btn .btn-custom .btn-lg {
+	margin-top: 60px;
+}
+
+.workshop .btn,
+.workshop .btn:hover {
+	margin-top: 200px;
+	padding: 10px 35px;
+	color: #444;
+}
+
+.workshop-left {
+		text-align: center;
+	}
+
+.workshop-right h3 {
+		margin-top: 210px;
+    	float: left;
+    	clear: left;
+    	text-align: left;
+    	margin-left: -10px;
+	}
+	
+.more-info-link {
+	margin: 0 15px;
+}
+
+
+#w1 {
+	background-image: url('../img/Fondo1.png');
+
+
+}
+
+	#w1 p {
+		color: #B25900;
+	}
+
+	#w1 p > a {
+		color: #661900;
+	}
+
+	#w1 .btn {
+		background-color: #eee;
+	}
+
+#w2 {
+	background-image: url('../img/bg_ws_02.png');
+	min-height: 650px;
+}
+
+	#w2 p {
+		color: #FFA5A5;
+	}
+
+	#w2 p > a {
+		color: #fff;
+	}
+
+	#w2 .btn {
+		color: #444;
+		background-color: #eee;
+	}
+
+#w3 {
+	background-image: url('../img/orange-wallpaper-16.jpg');
+	min-height: 700px;
+
+}
+
+	#w3 p {
+		color: #B25900;
+	}
+
+	#w3 p > a {
+		color: #661900;
+	}
+
+	#w3 .btn {
+		background-color: #eee;
+	}
+
+
+
+
+@media (min-height: 1080px) and (min-height: 1079px) {
+	#w1 {
+		padding-top:250px;
+		padding-bottom: 275px;
+	}
+	#w2 {
+		padding-top: 325px;
+		padding-bottom: 253px;
+	}
+	#w3 {
+		padding-top: 305px;
+		padding-bottom: 273px;
+	}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	.main-info h2 {
+		
+		font-size: 56px;
+		font-size: 5.6rem;
+		line-height: 56px;
+		line-height: 5.6rem;
+		text-align: center;
+	}
+
+	.workshop-right h3 {
+		margin-top: 210px;
+    	float: left;
+    	clear: left;
+    	text-align: left;
+	}
+
+	.workshop-left {
+		text-align: center;
+	}
+
+	.workshop-right {
+		text-align: center;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

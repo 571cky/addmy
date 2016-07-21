@@ -33,7 +33,7 @@ ul li {
 	padding-left:20px;
 }
 .marginTop{
-	margin-top: 25px;
+	margin-top: 75px;
 }
 #main-header img {
 	width: 100%;
@@ -187,9 +187,12 @@ footer p {
 	margin-top: 250px ;
 }
 .paso4 div label{
-	font-size:16px;
-
+	font-size:24px;
+	margin: 0 25px 25px 0;
+	color: #fff;
+    font-weight: 200;
 }
+
 .paso4 div label input[type='checkbox']{
 	 /* Double-sized Checkboxes */
   -ms-transform: scale(2); /* IE */
@@ -198,4 +201,8 @@ footer p {
   -o-transform: scale(2); /* Opera */
   padding: 10px;
   margin-right: 15px;
+}
+.paso4 div{
+	float:left;
+	text-align:left;
 }

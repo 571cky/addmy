@@ -69,12 +69,11 @@
 }
 
 .workshop .subscribe-form .btn .btn-custom .btn-lg {
-	margin-top: 60px;
+	margin-top: 100px;
 }
 
 .workshop .btn,
 .workshop .btn:hover {
-	margin-top: 200px;
 	padding: 10px 35px;
 	color: #444;
 }
@@ -83,24 +82,36 @@
 		text-align: center;
 	}
 
+.workshop-right {
+		text-align: center;
+	}
+
+.margen-sup-input {
+	margin-top: 50px;
+}
+
 .workshop-right h3 {
-		margin-top: 210px;
+		margin-top: 85px;
     	float: left;
     	clear: left;
-    	text-align: left;
-    	margin-left: -10px;
+    	text-align: center;
+    	color: #fff;
+    	font-weight: 300;
+    	margin-left: -20px;
 	}
-	
+
 .more-info-link {
 	margin: 0 15px;
 }
 
-
-#w1 {
-	background-image: url('../img/Fondo1.png');
-
+#subscribe-form .btn-continuar {
+	margin-top: 50px;
 
 }
+
+	#w1 {
+		background-image: url('../img/Fondo1.png');
+	}
 
 	#w1 p {
 		color: #B25900;
@@ -114,10 +125,10 @@
 		background-color: #eee;
 	}
 
-#w2 {
-	background-image: url('../img/bg_ws_02.png');
-	min-height: 650px;
-}
+	#w2 {
+		background-image: url('../img/bg_ws_02.png');
+		min-height: 650px;
+	}
 
 	#w2 p {
 		color: #FFA5A5;
@@ -132,11 +143,10 @@
 		background-color: #eee;
 	}
 
-#w3 {
-	background-image: url('../img/orange-wallpaper-16.jpg');
-	min-height: 700px;
-
-}
+	#w3 {
+		background-image: url('../img/orange-wallpaper-16.jpg');
+		min-height: 650px;
+	}
 
 	#w3 p {
 		color: #B25900;
@@ -150,9 +160,16 @@
 		background-color: #eee;
 	}
 
+	#w5 {
+		background-image: url('../img/yellow-and-orange-blurred-lights.jpg');
+		min-height: 650px;
+	}
 
+	#w5 .btn-continuar {
+		margin-top: 100px;
+	}
 
-
+		
 @media (max-width: 1920px) and (max-height: 1080px) {
 	#w1 {
 		padding-top:250px;
@@ -196,10 +213,12 @@
 	}
 
 	.workshop-right h3 {
-		margin-top: 210px;
+		margin-top: 85px;
     	float: left;
     	clear: left;
-    	text-align: left;
+    	text-align: center;
+    	color: #fff;
+    	font-weight: 300;
 	}
 
 	.workshop-left {
@@ -208,6 +227,14 @@
 
 	.workshop-right {
 		text-align: center;
+	}
+
+	#subscribe-form .btn-continuar {
+		margin-top: 100px;
+	}
+
+	#w5 .btn-continuar {
+		margin-top: 100px;
 	}
 
 }

@@ -160,23 +160,13 @@
 		background-color: #eee;
 	}
 
-
-
 	#w5 {
 		background-image: url('../img/yellow-and-orange-blurred-lights.jpg');
 		min-height: 650px;
 	}
 
-	#w5 p {
-		color: #B25900;
-	}
-
-	#w5 p > a {
-		color: #661900;
-	}
-
-	#w5 .btn {
-		background-color: #eee;
+	#w5 .btn-continuar {
+		margin-top: 100px;
 	}
 
 		
@@ -205,10 +195,6 @@
 		padding-bottom: 0px;
 	}
 	#w3 {
-		padding-top:0px;
-		padding-bottom: 0px;
-	}
-	#w5 {
 		padding-top:0px;
 		padding-bottom: 0px;
 	}
@@ -251,7 +237,8 @@
 		margin-top: 100px;
 	}
 
-	
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 

@@ -81,63 +81,65 @@
 					</form>	
 			</div>
 		</article>
-
 		<div id="paso4"></div>
 		<div class="clearfix"></div>
-		<article id="w5" class="workshop workshop-right">
+		<article id="w5" class="workshop workshop-left">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 main-info">
 						<h2>4. ¿Que van a ver en tu sitio?</h2>
 					</div>
 				</div>
+
 				<div class="clearfix"></div>
-					<form id="subscribe-form" action="">
-						<div class="row">
-							<div class="marginTop paso4">		
-						<div class="col-xs-12 col-md-4">
+
+				<div class="row marginTop paso4">
+
+						<div class="col-md-4">
 						    <label for="vh1">
 						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Logo
 							</label>
 						</div>
 
-						<div class="col-xs-12 col-md-4">
+						<div class="col-md-4">
 						    <label for="vh1">
-						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Slider / Carousel
+						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Logo
 							</label>
 						</div>
 
-						<div class="col-xs-12 col-md-4">
+						<div class="col-md-4">
 						    <label for="vh1">
-						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Galerías
+						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Logo
 							</label>
 						</div>
 
-						<div class="col-xs-12 col-md-4">
+						<div class="col-md-4">
 						    <label for="vh1">
-						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Blogs
+						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Logo
 							</label>
 						</div>
 
-						<div class="col-xs-12 col-md-4">
+						<div class="col-md-4">
 						    <label for="vh1">
-						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Redes Sociales
+						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Logo
 							</label>
 						</div>
 
-						<div class="col-xs-12 col-md-4">
+						<div class="col-md-4">
 						    <label for="vh1">
-						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Tienda online
+						      	<input type="checkbox" name="ch1" id="ch1" value="option1">Logo
 							</label>
 						</div>
+					
 				</div>
-						<div class="col-xs-12 ">
-							<button id="btn-continuar1" class="btn btn-custom btn-lg btn-continuar3">CONTINUAR!</button>
-						</div>
-					</form>	
+				<div class="clearfix"></div>
+				<div class="row">
+					<div class="col-xs-12 main-info">
+						<button id="btn_continuar2" class="btn btn-custom btn-lg btn-continuar">CONTINUAR!</button>
+					</div>	
+				</div>
 			</div>
 		</article>
-
 	</div>
 
 	<?php //include 'inc/footer.php'; ?>

@@ -1,0 +1,15 @@
+@media (max-width: 1920px) and (max-height: 1080px) {
+
+	#w1 {
+		padding-top:250px;
+		padding-bottom: 275px;
+	}
+	#w2 {
+		padding-top: 325px;
+		padding-bottom: 253px;
+	}
+	#w3 {
+		padding-top: 305px;
+		padding-bottom: 273px;
+	}
+}

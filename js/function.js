@@ -54,4 +54,14 @@ $("#w5").hide( "fast" );
     return pattern.test(emailAddress);
 	}
 
+	function toggleMobileMenu() 
+	{
+		var $mobileMenu = $('#mobile-main-menu');	
+		$mobileMenu.slideToggle('fast');
+	}
+
+	
+	$('#mobile-menu-button').on('click', toggleMobileMenu);
+	
+
 });

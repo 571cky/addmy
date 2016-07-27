@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<?php include 'inc/head_common.php'; ?>
-	<link rel="stylesheet" href="css/workshops.css">
-	<title>AddMy</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>add my site!</title>
 	<link rel="shortcut icon" href="img/Mas.png" type="image/png" />
-	
-	
 </head>
 <body>
-	<?php include 'inc/header.php'; ?>
+	<header id="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-xs-9 col-sm-4">
+					<a href="/addmy"><img src="img/Logo.png" alt="AddMy" align="center"></a>
+				</div>
+				<div class="col-xs-3 col-sm-4">
+					<ul id="main-menu" class="nav nav-pills hidden-xs">
+						<li><a href="#" id='btn_registro'>REGISTRARSE</a></li>
+						<li><a href="#">INICIAR SESIÓN</a></li>
+					</ul>
+					<a href="#" id="mobile-menu-button" class="btn btn-default visible-xs">
+						<span class="glyphicon glyphicon-align-justify"></span> 
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="visible-xs">
+			<ul id="mobile-main-menu">
+				<li><a href="index.php">REGISTRARSE</a></li>
+				<li><a href="index.php">INICIAR SESIÓN</a></li>
+			</ul>
+		</div>
+	</header>
 	
 	<div id="workshop-list">
 		<article id="w1" class="workshop workshop-left">
@@ -142,7 +170,63 @@
 		</article>
 	</div>
 
-	<?php //include 'inc/footer.php'; ?>
-	<?php include 'inc/footer_common.php'; ?>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h3>SOBRE ADDMY.SITE</h3>
+					<ul id="next-workshops">
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">AVISO LEGAL</a></li>
+						<li><a href="#">CONDICIONES DE USO</a></li>
+						<li><a href="#">POLITICAS DE PRIVACIDAD</a></li>
+						<li><a href="#">MAPA DE SITIO</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>FACEBOOK</h3>
+					
+				</div>
+
+				<div class="col-md-3">
+					<h3>TWITTER</h3>
+					
+				</div>
+
+				<div class="col-md-3">
+					<h3>CONTACTO</h3>
+					<form id="contact-form" action="">
+					<div class="row">
+						<div class="">
+								<input type="email" class="form-control input-lg" id="email" placeholder="Tu correo">
+								
+								<textarea class="form-control input-lg" id="password2" placeholder="Tu Consulta..."></textarea>
+						</div>
+						
+							<button id="btn_login" class=" form-control input-lg btn btn-custom btn-lg">CONSULTAR!</button>
+						
+					</div>	
+				</form>	
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+	<script src="js/function.js"></script>
+
+
+
+	<script>
+	
+	</script>
+
+
 </body>
 </html>
